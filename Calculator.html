@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Calculator</title>
+	<link rel="stylesheet" type="text/css" href="CSS/CSS.css">
+	<script type="text/javascript" src="JS/Javascript.js"></script>
+	<link rel="Shortcut icon" href="Icon/calc.ico">
+</head>
+<body>
+	<div class="page">
+		<form>
+		<table align="center">
+			<tr>
+			<tr>
+				<td colspan="2" align="center" class="lbl">
+					<marquee behavior="alternate">One Million Arab Coders</marquee>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<div class="lblh">My Calculator</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<i><label class="lbln">Number 1 : </label></i>
+				</td>
+				<td>
+					<input type="text" id="txtnum1" class="txtn" placeholder="Enter You Number 1" 
+					onkeydown="Check()" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<i><label class="lbln">Number 2 : </label></i>
+				</td>
+				<td>
+					<input type="text" id="txtnum2" class="txtn" placeholder="Enter You Number 2" 
+					onkeydown="Check()" />
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+				    <table>
+						<tr>
+							<td>
+								<input type="button" value="+" class="btn" onclick="Calc('a');">
+							</td>
+							<td>
+								<input type="button" value="-" class="btn" onclick="Calc('b');"
+								style="padding-bottom: 9px;">
+							</td>
+							<td>
+								<input type="button" value="/" class="btn" onclick="Calc('c');"
+								style="padding-bottom: 20px;">
+							</td>
+							<td>
+								<input type="button" value="*" class="btn" onclick="Calc('d');"
+								style="padding-top: 9px;">
+							</td>
+							<td>
+								<input type="button" value="%" class="btn" onclick="Calc('e');">
+							</td>
+					    </tr>
+				    </table>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+				    <table>
+						<tr>
+							<td>
+								<input type="button" value="Sin" class="btn" onclick="Calc('g');">
+							</td>
+							<td>
+								<input type="button" value="Cos" class="btn" onclick="Calc('f');">
+							</td>
+							<td>
+								<input type="button" value="Tan" class="btn" onclick="Calc('h');">
+							</td>
+							<td>
+								<input type="button" value="Log" class="btn" onclick="Calc('j');">
+							</td>
+							<td>
+								<input type="button" value="Pow" class="btn" onclick="Calc('k');">
+							</td>
+					    </tr>
+				    </table>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+				    <table>
+						<tr>
+							<td>
+								<input type="button" value="Sqrt" class="btn" onclick="Calc('l');">
+							</td>
+							<td>
+								<input type="button" value="Exp" class="btn" onclick="Calc('m');">
+							</td>
+							<td>
+								<input type="button" value="Min" class="btn" onclick="Calc('n');">
+							</td>
+							<td>
+								<input type="button" value="Max" class="btn" onclick="Calc('o');">
+							</td>
+							<td>
+								<input type="button" value="Abs" class="btn" onclick="Calc('p');">
+							</td>
+					    </tr>
+				    </table>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="2" align="center">
+				    <table>
+						<tr>
+							<td>
+								<input type="button" value="Cbrt" class="btn" onclick="Calc('u');">
+							</td>
+							<td>
+								<input type="button" value="Rnd" class="btn" onclick="Calc('t');">
+							</td>
+							<td>
+								<input type="button" value="Floor" class="btn" onclick="Calc('r');">
+							</td>
+							<td>
+								<input type="button" value="Ceil" class="btn" onclick="Calc('q');">
+							</td>
+							<td>
+								<input type="button" value="Imul" class="btn" onclick="Calc('i');">
+							</td>
+					    </tr>
+				    </table>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="2" align="center">
+					<label class="res" id="lblR">0</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<table>
+						<td>
+							<a href="https://www.youtube.com/c/AlaHassine" target="_blank" class="btntool"
+							   style="padding-top: 0px;" >Youtube</a>
+						</td>
+						<td>
+							<a href="http://www.facebook.com/ala.hassine.10" target="_blank" 
+							class="btntool" style="padding-top: 0px;">Facebook</a>
+						</td>
+						<td>
+							<a href="https://twitter.com/alahssin1" class="btntool" target="_blank"
+							   style="padding-top: 0px;">Twitter</a>
+						</td>
+					</table>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="2" align="center">
+					<table>
+						<td>
+							<input type="button" value="Close" onclick="window.close();" class="btntool" 
+							style="background-color: rgb(70,128,10);color: blue"/>
+						</td>
+						<td>
+							<input type="reset" value="Clear" onclick="window.lblR.innerHTML = 0" class="btntool" style="background-color: rgb(70,128,10);color: blue"/>
+						</td>
+					</table>
+				</td>
+			</tr>
+		</table>
+		</form>
+ 	</div>
+</body>
+</html>

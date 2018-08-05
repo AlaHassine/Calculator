@@ -1,0 +1,109 @@
+		body {
+		background-color: #737373;
+		
+		}
+		input {
+			border-radius: 10px;
+		}
+		td {
+			padding-top: 2px;
+		}
+		.lblh {
+			padding: 4px;
+			border-radius: 24px;
+			font-size: 35px;
+			background-color: navy;
+			color: white;
+			border:4px solid darkgreen;
+			font-family: 'Tahoma' , bold;
+			text-align: center;
+			width: 300px;
+			height: 100%;
+			padding-top: 2px;
+		}
+		.lbln {
+			font-family: 'Arial';
+			font-weight : bold;
+			font-size: 22px;
+		}
+		.txtn {
+			font-size: 24px;
+			text-align: center;
+			background-color: cyan;
+			font-family: 'Tahoma';
+			font-weight : bold;
+			color: blue;
+			border:3px solid #ff5b00;
+			margin-bottom: 3px;
+		}
+		.res {
+			font-size: 35pt;
+			font-weight: bold;
+			border-radius: 15px;
+			height: 100%;
+			color: navy;
+			margin-bottom: 3px;
+			border:3px solid navy;
+			background-color: yellow;	
+			padding-left: 15px;
+			padding-right: 15px;	
+		}
+		.btntool {
+			background-color: rgb(255,128,0);
+			height: 50px;
+			width: 170px;
+			border-radius: 24px;
+			padding-bottom: 5px;
+			margin-top: 2px;
+			cursor: pointer;
+			font-size: 22pt;
+			font-weight: bold;
+			border:3px solid navy;
+			font-family: 'Segoe UI';
+		}
+		.lbl {
+			font-size: 18pt;
+			margin: 10px;
+			font-weight: bold;
+			border-radius: 15px;
+			height: 100%;
+			width: 300px;
+			color: navy;
+			border:3px solid navy;
+			background-color: orange;
+		}
+		.page {
+			width: 500px;
+			background-color: #6BA7D6;
+			margin: auto;
+			border : 5px solid #9bef05;
+			border-radius: 10px;
+		}
+		.btn {
+			background:violet;
+			color: black;
+			width: 85px;
+			height: 46px;
+			cursor: pointer;
+			font-size: 24pt;
+			border:2px solid navy;
+			font-family: 'Tahoma';
+		}
+		a:link , a:visited {
+			text-decoration: none;
+			background-color: rgb(255,128,0);
+			color: rgb(72,0,255);
+			height: 50px;
+			width: 150px;
+			border-radius: 24px;
+			margin: 8px;
+			padding: 5px 15px;
+			cursor: pointer;
+			font-size: 20pt;
+			font-weight: bold;
+			border:3px solid navy;
+			font-family: 'Segoe UI';
+		}
+		a:hover , a:active {
+			background-color: cyan;
+		}
